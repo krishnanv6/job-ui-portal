@@ -26,6 +26,7 @@ const Footer = () => {
             <div className="flex space-x-3">
               <a
                 href="https://twitter.com/jobportal"
+                aria-label="JobPortal on Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
@@ -40,6 +41,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://linkedin.com/company/jobportal"
+                aria-label="JobPortal on LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-blue-700 hover:to-blue-800 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
@@ -54,6 +56,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://github.com/jobportal"
+                aria-label="JobPortal on GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-700 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
@@ -68,6 +71,7 @@ const Footer = () => {
               </a>
               <a
                 href="https://instagram.com/jobportal"
+                aria-label="JobPortal on Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-purple-600 hover:to-pink-600 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
