@@ -151,7 +151,23 @@ const Footer = () => {
               </a>
               <a className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Cookie Policy</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+
+                {/* Tooltip */}
+                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-56 pointer-events-none z-50 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                  <div className="relative bg-gray-800/95 backdrop-blur-xl rounded-xl border border-gray-700/50 shadow-xl shadow-black/30 px-3.5 py-3">
+                    <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-primary-500 to-purple-500 rounded-t-xl"></div>
+                    <div className="flex items-center gap-1.5 mb-1.5">
+                      <span className="text-sm">🍪</span>
+                      <span className="text-xs font-bold bg-gradient-to-r from-primary-400 to-purple-400 bg-clip-text text-transparent">
+                        Cookie Policy
+                      </span>
+                    </div>
+                    <p className="text-xs text-gray-400 leading-relaxed">
+                      We use cookies to personalize your experience and analyze site traffic.
+                    </p>
+                    <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-gray-800/95 border-r border-b border-gray-700/50 rotate-45"></div>
+                  </div>
+                </div>
               </a>
               <Link
                 to="/contact"
