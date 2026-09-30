@@ -60,9 +60,9 @@ Use the file tree injected above as a starting point. Then:
 
 ### Phase 3 --- Create Technical Specification
 
-1.  Ensure output directory exists: mkdir -p specs
+1.  Ensure output directory exists: ..\project-specs\spec_$ARGUMENTS
 
-2.  Save file at: specs/issue-\$ARGUMENTS-spec.md
+2.  Save file at: ..\project-specs\spec_$ARGUMENTS\issue-$ARGUMENTS-spec.md
 
 3.  After writing:
 
