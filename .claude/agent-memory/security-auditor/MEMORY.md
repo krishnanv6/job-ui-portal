@@ -1,0 +1,2 @@
+- [Auth Risk Profile](project_auth_risk_profile.md) — localStorage-backed session, plaintext passwords in source, role check patterns and bypass risks
+- [Components Audit Findings](project_components_audit_findings.md) — full audit of src/components/ — findings, severities, and cleared items

@@ -1,0 +1,1 @@
+- [Project Context Hotspots](project-context-hotspots.md) — known context instability, re-render hotspots, and memoization gaps in the job-portal-ui codebase
