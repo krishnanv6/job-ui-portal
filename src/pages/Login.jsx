@@ -9,6 +9,7 @@ const Login = () => {
     password: "",
     userType: "jobSeeker",
   });
+  
   const [error, setError] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const [showDemoCredentials, setShowDemoCredentials] = useState(false);
